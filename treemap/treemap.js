@@ -5,7 +5,7 @@ const svg = d3.select('body')
   .append('svg')
   .attr('width', w)
   .attr('height', h + 100)
-  .style("margin-left", "240")
+  .style("margin-left", "200")
   .style("background-color", "white");//white
 
 d3.json("https://cdn.rawgit.com/freeCodeCamp/testable-projects-fcc/a80ce8f9/src/data/tree_map/video-game-sales-data.json").then(function (data) {
